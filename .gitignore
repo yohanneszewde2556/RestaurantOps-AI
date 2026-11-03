@@ -1,0 +1,63 @@
+# ── Python ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+
+# ── Virtual Environments ───────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+.env.local
+
+# ── Secrets ────────────────────────────────────────────────────────
+.env
+*.pem
+*.key
+*.p12
+
+# ── Database ───────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Node / Frontend ────────────────────────────────────────────────
+node_modules/
+dist/
+.next/
+.nuxt/
+.cache/
+*.tsbuildinfo
+
+# ── OS ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Logs ───────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── Misc ───────────────────────────────────────────────────────────
+tmp/
+temp/

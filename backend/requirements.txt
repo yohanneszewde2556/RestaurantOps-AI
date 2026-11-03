@@ -1,0 +1,29 @@
+# Web Framework
+fastapi>=0.115.5
+uvicorn[standard]>=0.32.1
+
+# Database
+sqlalchemy[asyncio]>=2.0.36
+aiosqlite>=0.20.0
+greenlet>=3.0.0
+alembic>=1.14.0
+
+# Data Validation
+pydantic>=2.10.1
+pydantic-settings>=2.6.1
+
+# Environment Variables
+python-dotenv>=1.0.1
+
+# HTTP Client (for external APIs)
+httpx>=0.28.0
+
+# AI (Google Gen AI SDK - replacement for deprecated google-generativeai)
+google-genai>=1.0.0
+
+# Scheduling
+apscheduler>=3.10.4
+
+# Testing
+pytest>=8.3.3
+pytest-asyncio>=0.24.0
